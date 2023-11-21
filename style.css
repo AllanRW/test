@@ -1,0 +1,15 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+#gameCanvas {
+    background-color: #fff;
+    border: 1px solid #000;
+    touch-action: none; /* Prevents the default touch behavior */
+}
